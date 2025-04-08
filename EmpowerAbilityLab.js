@@ -88,7 +88,7 @@ form.addEventListener("submit", (e) => {
     form.email.setAttribute("aria-invalid", "true");
   }
   if (form.phone.value && !form.phone.checkValidity()) {
-    errors.push("Phone must be in format XXX-XXX-XXXX");
+    errors.push("Phone must be in format XXXXXXXXXX");
     form.phone.setAttribute("aria-invalid", "true");
   }
 
