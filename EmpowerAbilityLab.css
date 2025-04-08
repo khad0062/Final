@@ -343,7 +343,7 @@ input:checked + .slider::before {
   transform: translateX(30px);
 }
 .toggle-switch input:focus + .slider {
-  outline: 5px solid var(--primary-color));
+  outline: 5px solid var(--primary-color);
   outline-offset: 2px; 
 }
 
