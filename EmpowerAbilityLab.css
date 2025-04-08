@@ -50,7 +50,7 @@ p {
 #community-btn:focus{
   background: var(--primary-color); 
   color: var(--background-color); 
-  outline: 3px solid var(--secondary-color); 
+  outline: 4px solid var(--primary-color); 
   outline-offset: 2px; 
   transition: all 0.3s ease; 
 }
@@ -340,7 +340,7 @@ input:checked + .slider::before {
   transform: translateX(30px);
 }
 .toggle-switch input:focus + .slider {
-  outline: 3px solid var(--secondary-color);
+  outline: 3px solid var(--primary-color));
   outline-offset: 2px; 
 }
 
