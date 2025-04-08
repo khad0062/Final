@@ -92,6 +92,13 @@ header {
     transition: color 0.3s ease;
 }
 
+.service-emoji {
+    display: block;
+    margin: 20px auto;
+    max-width: 100px;
+    height: auto;
+}
+
 .nav-link::after {
     content: '';
     position: absolute;
