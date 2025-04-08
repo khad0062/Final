@@ -281,6 +281,9 @@ textarea:focus {
   gap: 10px;
   margin-bottom: 10px;
 }
+.hidden {
+  display: none;
+}
 
 .switch-container {
   display: flex;
