@@ -123,10 +123,11 @@ p {
 }
 
 .logo {
-  color: #FFFFFF;
   width: 150px;
   height: 75px;
   display: block;
+  background-color: #FFFFFF; /* White background */
+  padding: 5px
 }
 
 .section {
