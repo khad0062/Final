@@ -58,12 +58,15 @@ emailSwitch.addEventListener("keypress", (e) => {
 });
 
 // Show/Hide Event Details
-const speakerCheckbox = document.getElementById("speaker-option");
-const eventDetails = document.getElementById("event-details");
-speakerCheckbox.addEventListener("change", () => {
-  eventDetails.classList.toggle("hidden", !speakerCheckbox.checked);
-  eventDetails.setAttribute("aria-hidden", !speakerCheckbox.checked);
+  const speakerCheckbox = document.getElementById('speaker-option');
+const eventDetails = document.getElementById('event-details');
+speakerCheckbox.addEventListener('change', () => {
+    eventDetails.classList.toggle('hidden', !speakerCheckbox.checked);
+    eventDetails.setAttribute('aria-hidden', !speakerCheckbox.checked);
 });
+  
+  
+
 
 // Form Submission
 const form = document.getElementById("schedule-form");
