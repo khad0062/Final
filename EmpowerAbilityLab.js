@@ -50,10 +50,11 @@ closeModal.addEventListener("click", () => {
 
 // Toggle Switch Accessibility
 const emailSwitch = document.getElementById("email-switch");
-emailSwitch.addEventListener("keypress", (e) => {
+
+emailSwitch.addEventListener("keydown", (e) => {
   if (e.key === "Enter" || e.key === " ") {
-    e.preventDefault();
-    emailSwitch.checked = !emailSwitch.checked;
+    e.preventDefault(); // Prevent scrolling with Space
+    emailSwitch.checked = !emailSwitch.checked; // Toggle state
   }
 });
 
