@@ -47,6 +47,12 @@ p {
     align-items: center;
 }
 
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
 .section {
     padding: 50px 0;
 }
