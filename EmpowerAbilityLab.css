@@ -233,7 +233,7 @@ header {
 }
 
 #close-modal {
-  background-color: var(--accent-color);
+  background-color: #575757;
   color: var(--background-color);
   border: none;
   padding: 10px 20px;
