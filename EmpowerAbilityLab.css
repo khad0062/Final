@@ -339,6 +339,10 @@ input:checked + .slider {
 input:checked + .slider::before {
   transform: translateX(30px);
 }
+.toggle-switch input:focus + .slider {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 2px; 
+}
 
 /* Animations */
 @keyframes fadeIn {
