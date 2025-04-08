@@ -47,11 +47,13 @@ h2 {
 p {
   line-height: 1.6;
 }
-#community-btn{
-    background: transparent;
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
-    padding: 10px 20px;
+#community-btn:focus{
+  background: var(--primary-color); 
+  color: var(--background-color); 
+  outline: 3px solid var(--secondary-color); 
+  outline-offset: 2px; 
+  transition: all 0.3s ease; 
+}
 }
 .btn{
     background: var(--primary-color);
